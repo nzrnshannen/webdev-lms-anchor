@@ -1,3 +1,133 @@
-/*
-    Put code here!
-*/
+.nav{
+    background-color: rgba(54, 4, 97, 0.89);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow:hidden;
+}
+
+.nav, .title-anchor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.nav .home{
+    position: relative;
+    left: -5rem;
+}
+
+.title-anchor{
+    position: relative;
+}
+
+.anchor-logo{
+    text-decoration: none;
+    color: rgb(231, 239, 239);
+}
+.item, .item a{
+    color: white;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.item a:hover{
+    transform: scale(1.20);
+    cursor: pointer;
+    color:blanchedalmond;
+}
+
+.item:hover::before{
+    color:rgba(54, 4, 97, 0.89);
+}
+
+.item:hover::after{
+    color: rgb(189, 2, 251);
+}
+
+.create-account{
+    background-color: rgb(162, 140, 204);
+    color:rgba(54, 4, 97, 0.89);
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-account a{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.create-account a:hover{
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.create-account a:active{
+    color: rgb(29, 3, 27);
+}
+
+
+
+/*end of nav*/
+
+body{
+    background-color: rgb(232, 224, 240);
+}
+
+.img-gallery{
+    background-color: rgb(233, 221, 221);
+    height: 25rem;
+    width: 70rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.img-gallery-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-container{
+    background-color: whitesmoke;
+    margin: 0rem;
+    height: 100rem;
+}
+
+#about-container{
+    height: 150rem;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#about-container 
+
+#services-section{
+    background-color: white;
+    height: 30rem;
+    margin: 2rem;
+}
+
+#developers-section{
+    background-color: white;
+    height: 20rem;
+    margin: 2rem;
+}
+
+footer{
+    height: 35rem;
+    background-color: rgb(220, 202, 255);
+}
+
+footer h2{
+    text-align: center;
+}

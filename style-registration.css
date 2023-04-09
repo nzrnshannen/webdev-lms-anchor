@@ -1,0 +1,67 @@
+.nav{
+    background-color: rgba(54, 4, 97, 0.89);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow:hidden;
+}
+
+.nav, .title-anchor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.nav .home{
+    position: relative;
+    left: -9.8rem;
+}
+
+.title-anchor{
+    position: relative;
+}
+
+.anchor-logo{
+    text-decoration: none;
+    color: rgb(231, 239, 239);
+}
+.item, .item a{
+    color: white;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration-line: none;
+
+    
+}
+
+.item a:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+    color:rgb(49, 231, 255);
+}
+
+.item:hover::before{
+    color:rgba(54, 4, 97, 0.89);
+}
+
+.item:hover::after{
+    color: rgb(189, 2, 251);
+}
+
+
+/* end of nav */
+
+body{
+    background-color: rgb(232, 224, 240);
+}
+
+.body-container{
+    background-color: whitesmoke;
+    margin: 0rem;
+    height: 50rem;
+}
