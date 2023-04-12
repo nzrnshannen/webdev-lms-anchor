@@ -23,6 +23,10 @@
     position: relative;
 }
 
+.title-anchor h1{
+    padding-left: 10px;
+}
+
 .anchor-logo{
     text-decoration: none;
     color: rgb(231, 239, 239);
@@ -65,3 +69,4 @@ body{
     margin: 0rem;
     height: 50rem;
 }
+

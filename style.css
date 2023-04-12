@@ -14,6 +14,7 @@
     align-items:center;
 }
 
+
 .nav .home{
     position: relative;
     left: -5rem;
@@ -21,6 +22,10 @@
 
 .title-anchor{
     position: relative;
+}
+
+.title-anchor h1{
+    padding-left: 10px;
 }
 
 .anchor-logo{
