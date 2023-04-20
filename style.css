@@ -115,20 +115,52 @@ body{
     text-align: center;
 }
 
-#about-container 
+.about-divider{
+    height: 2.7rem;
+    background-color: black;
+}
 
 #services-section{
     background-color: white;
-    height: 30rem;
+    height: 40rem;
     margin: 2rem;
+    position:relative;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+}
+
+#services-section h3{
+    padding: 1rem;
+}
+
+.services-container{
+    display: grid;
+    background-color: rgb(232, 229, 225);
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 30rem;
+    width: 90%;
+    box-sizing: content-box;
 }
 
 #developers-section{
     background-color: white;
     height: 20rem;
     margin: 2rem;
+
 }
 
+.service-a{
+    background-color: aquamarine;
+}
+
+.service-b{
+    background-color: yellowgreen;
+}
+
+.service-c{
+    background-color: blueviolet;
+}
 footer{
     height: 35rem;
     background-color: rgb(220, 202, 255);
