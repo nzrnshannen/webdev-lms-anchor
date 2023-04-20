@@ -90,18 +90,19 @@ body{
 }
 
 .img-gallery{
-    background-color: rgb(233, 221, 221);
+    background-image: url('/images/luxury-old-library-interior-night-dark-empty-room-reading-with-books-wooden-shelves_107791-3025\ \(1\).svg');
     height: 25rem;
     width: 70rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    background-size:contain;
 }
-
 .img-gallery-container{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .body-container{
     background-color: whitesmoke;
     margin: 0rem;
