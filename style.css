@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .nav{
     background-color: rgba(54, 4, 97, 0.89);
     color: rgb(255, 255, 255);
