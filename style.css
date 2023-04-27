@@ -240,20 +240,41 @@ body{
 
 
 
-#developers-section{
+#developers-section:not(h2) {
     background-color: rgb(221, 231, 234);
-    height: 20rem;
+    height: 27rem;
     margin: 2rem;
     box-sizing: border-box;
-    display: grid;
-    flex-direction: column;
+    padding:  1rem;
 }
 
-.dev{
-    border: 1px solid brown;
-    height: 10rem;
-    width: 20rem;
+#developers-section h2{
+    margin-bottom: 1rem;
 }
+.dev-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dev{
+    border: 1px solid rgb(105, 118, 148);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.dev-list p{
+    position: relative;
+    top: 4.7rem;
+}
+
+
+
+
 footer{
     height: 35rem;
     background-color: rgb(220, 202, 255);
@@ -261,4 +282,8 @@ footer{
 
 footer h2{
     text-align: center;
+}
+
+#contact-us{
+    margin-top: 10rem
 }
