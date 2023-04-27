@@ -62,7 +62,7 @@
 
 body{
     
-    background-color: whitesmokes;
+    background-color: whitesmoke;
 }
 
 .body-container{
@@ -86,7 +86,6 @@ body{
 .inside-container-2{
     background-color:white;
     
-   
 }
 
 .inside-container-1, .inside-container-2{
@@ -140,4 +139,9 @@ input{
     font-size: 18px;
     height: 3.5rem;
     width: 10rem;
+}
+
+#dob{
+   width: 13.8rem;
+   text
 }
