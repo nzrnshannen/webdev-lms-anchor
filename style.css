@@ -266,8 +266,14 @@ body{
     display: flex;
     flex-direction: column-reverse;
     overflow: hidden;
+    box-shadow: 0 0 0 3px #fffbfb;
+    transition: box-shadow 0.3s ease;
 }
 
+.circle-border:hover {
+    box-shadow: 0 0 0 8px #76ddff
+  }
+  
 .dev-list p{
     position: relative;
 }
