@@ -113,7 +113,7 @@ body{
 }
 
 #about-container{
-    height: 160rem;
+    height: 90rem;
     background-color: whitesmoke;
     text-align: center;
 }
@@ -212,12 +212,12 @@ body{
 
 [class*=service] div:hover p{
     opacity: 1; 
-}
+}   
 
 .services-container{
     display: grid;
     background-color: rgb(221, 231, 234);
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns : 1fr 1fr 1fr;
     height: 30rem;
     width: 90%;
     box-sizing: content-box;
@@ -257,7 +257,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
-.dev{
+.circle-border{
     border: 1px solid rgb(105, 118, 148);
     border-radius: 50%;
     width: 200px;
@@ -265,11 +265,11 @@ body{
     margin: 2rem;
     display: flex;
     flex-direction: column-reverse;
+    overflow: hidden;
 }
 
 .dev-list p{
     position: relative;
-    top: 4.7rem;
 }
 
 
@@ -285,5 +285,5 @@ footer h2{
 }
 
 #contact-us{
-    margin-top: 10rem
+    margin-top: 10rem;
 }
