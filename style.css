@@ -109,7 +109,7 @@ body{
 .body-container{
     background-color: whitesmoke;
     margin: 0rem;
-    height: 100rem;
+    height: 120rem;
 }
 
 #about-container{
@@ -129,11 +129,11 @@ body{
 #services-section{
     background-color: rgb(255, 255, 255);
     height: 40rem;
-    margin: 0rem;
+    margin: 0;
     padding: 0;
     position:relative;
     align-items: center;
-    display: flex;
+    display: flex; 
     flex-direction:column;
 }
 
@@ -216,7 +216,7 @@ body{
 
 .services-container{
     display: grid;
-    background-color: rgb(221, 231, 234);
+    background-color: rgb(253, 255, 255);
     grid-template-columns : 1fr 1fr 1fr;
     height: 30rem;
     width: 90%;
@@ -238,14 +238,19 @@ body{
     background-color: rgb(129, 166, 206);
 }
 
-
+.divider{
+    height: 10px;
+    margin: 20px 0;
+    background: linear-gradient(to right, transparent, #8fa9c2, transparent);
+}
 
 #developers-section:not(h2) {
-    background-color: rgb(221, 231, 234);
+    background-color: rgb(253, 255, 255);
     height: 27rem;
     margin: 2rem;
     box-sizing: border-box;
     padding:  1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #developers-section h2{
@@ -282,14 +287,12 @@ body{
 
 
 footer{
-    height: 35rem;
-    background-color: rgb(220, 202, 255);
+    height: 30rem;
+    background-color: #ccc;
+    padding: 10px;
+
 }
 
 footer h2{
     text-align: center;
-}
-
-#contact-us{
-    margin-top: 10rem;
 }
