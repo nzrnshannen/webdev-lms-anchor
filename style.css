@@ -310,12 +310,13 @@ form div{
 form div label, 
 form div input{
     margin-top: 0.5rem;
+    padding: 0.2rem;
 }
 
 .form-btn{
     width: 5rem;
     margin: auto;
-    margin-top: 0.7rem;
+    margin-top: 1.3rem;
 }
 
 .input-msg{
@@ -332,5 +333,22 @@ form div input{
 }
 
 form [class*="input"]:hover{
-    border-color: rgb(104, 174, 223);
+    border-color: rgb(15, 41, 59);
+}
+
+form .form-btn{
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.85rem;
+    border: 3px solid rgb(168, 201, 223);
+    transition: all 0.3s ease-in-out;
+    background-color: #FEE12B;
+    color: rgb(5, 66, 158);
+    border-radius: 20px;
+}
+
+form .form-btn:hover{
+    transform: scale(1.1);
+    background-color: #00688B;
+    color: whitesmoke;
 }
