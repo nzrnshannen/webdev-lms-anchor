@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+
 }
 .nav{
     background-color: rgba(54, 4, 97, 0.89);
@@ -288,11 +289,48 @@ body{
 
 footer{
     height: 30rem;
-    background-color: #ccc;
+    background-color: #cdeeff;
     padding: 10px;
 
 }
 
 footer h2{
     text-align: center;
+}
+
+form div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20rem 0 20rem;
+    min-width: fit-content;
+    position: relative;
+}
+
+form div label, 
+form div input{
+    margin-top: 0.5rem;
+}
+
+.form-btn{
+    width: 5rem;
+    margin: auto;
+    margin-top: 0.7rem;
+}
+
+.input-msg{
+    height: 13rem;
+    vertical-align: top;
+    line-height: 1.5;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 100%;
+    resize: none;
+    margin-top: 1rem;
+
+}
+
+form [class*="input"]:hover{
+    border-color: rgb(104, 174, 223);
 }
