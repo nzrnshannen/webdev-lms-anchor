@@ -329,7 +329,6 @@ form div input{
     max-width: 100%;
     resize: none;
     margin-top: 1rem;
-
 }
 
 form [class*="input"]:hover{
@@ -351,4 +350,17 @@ form .form-btn:hover{
     transform: scale(1.1);
     background-color: #00688B;
     color: whitesmoke;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus{
+    border: 2px solid  #362264;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.21);
+}
+
+textarea:focus{
+    border: 2px solid #482b8b;
+    outline: none;
+    box-shadow: 0 0 10px #61b9d3;
 }
