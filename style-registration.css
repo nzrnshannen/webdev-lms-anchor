@@ -143,5 +143,12 @@ input{
 
 #dob{
    width: 13.8rem;
-   text
+}
+
+#email, #password, #repassword{
+    width: 28.5rem;
+}
+
+body{
+    zoom: 0.8;
 }
