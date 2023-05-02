@@ -61,12 +61,87 @@
 /* end of nav */
 
 body{
-    background-color: rgb(232, 224, 240);
+    
+    background-color: whitesmoke;
 }
 
 .body-container{
-    background-color: whitesmoke;
-    margin: 0rem;
-    height: 50rem;
+    margin: 10rem;
+    margin-top:5rem;
+    height: 35rem;
+    display: flex;
 }
 
+.inside-container-1{
+   background-image: url(/images/kidlibrary.png) ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+   
+    
+}
+
+.inside-container-2{
+    background-color:white;
+    
+}
+
+.inside-container-1, .inside-container-2{
+    height:45rem;
+    width: 60rem;
+    
+}
+
+
+.anchor-icon{
+   text-align: center;
+   padding-top:3rem;
+   
+}
+
+.form-1{
+    text-align:center;
+}
+
+input{
+    height: 2.6rem;
+    background-color: #F6EFEF;
+    border-style: solid;
+    border-color: #F6EFEF;
+    border-radius: 3.5px;
+}
+
+#student{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    width: 1.4em;
+    height: 1.25em;
+    border: 0.15em solid #F6EFEF;
+    border-radius: 50%;
+}
+
+#fname, #lname, #dob, #contact-num, #email, #password, #repassword{
+    margin: 0.3rem;
+    font-size: 17px;
+}
+
+.submit-1, .id-1{
+    cursor: pointer;
+    background-color: rgb(231, 239, 239);
+    font-size:15px;
+    height: 3rem;
+    width: 6rem;
+}
+
+.submit-1{
+    font-size: 18px;
+    height: 3.5rem;
+    width: 10rem;
+}
+
+#dob{
+   width: 13.8rem;
+   text
+}
