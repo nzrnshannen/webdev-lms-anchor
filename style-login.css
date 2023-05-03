@@ -61,12 +61,79 @@
 /* end of nav */
 
 body{
-    background-color: rgb(232, 224, 240);
+    background-color: whitesmoke;
 }
 
 .body-container{
-    background-color: whitesmoke;
-    margin: 0rem;
-    height: 50rem;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 10rem;
+    height: 35rem;
+    box-shadow: 10px 10px rgb(164, 163, 163);
+    width: 35rem;
 }
 
+h2{
+    text-align: center;
+    padding: 2rem;
+    padding-top: 60px;
+    font-size: xx-large;
+    font-family: 'Times New Roman';
+    color:rgb(49, 83, 142);
+}
+
+.form-1{
+    text-align: center;
+}
+
+#uname, #pass{
+    margin: 0.3rem;
+    font-size: 16px;
+    padding: 8px;
+}
+
+input{
+    height: 2.6rem;
+    background-color: #F6EFEF;
+    border-radius: 4px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    margin: 15px;
+    background-color:#F6EFEF;
+    border-color: aliceblue;
+    border-radius: 4px;
+    color:rgb(113, 113, 113);
+    box-shadow: 2px 2px;
+}
+
+button:hover{
+    color:#c92e2e8b;
+    transform: scale(1.10);
+}
+
+.checkbox{
+    margin: 5px;
+
+}
+
+.admin-1, .admin-1 a{
+    margin: 15px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    text-decoration-line: none;
+    padding: 1px;
+    color:rgb(136, 136, 136)
+}
+
+.admin-1 a:hover{
+    transform:scale(1.10);
+    cursor:pointer;
+    color:rgb(0, 0, 0);
+}
