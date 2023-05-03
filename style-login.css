@@ -115,6 +115,7 @@ button{
 button:hover{
     color:#c92e2e8b;
     transform: scale(1.10);
+    cursor: pointer;
 }
 
 .checkbox{
@@ -136,4 +137,9 @@ button:hover{
     transform:scale(1.10);
     cursor:pointer;
     color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.inside-container{
+    height: 25rem;
 }
