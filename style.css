@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+
+}
 .nav{
     background-color: rgba(54, 4, 97, 0.89);
     color: rgb(255, 255, 255);
@@ -106,34 +110,291 @@ body{
 .body-container{
     background-color: whitesmoke;
     margin: 0rem;
-    height: 100rem;
+    height: 120rem;
 }
 
 #about-container{
-    height: 150rem;
+    height: 90rem;
     background-color: whitesmoke;
     text-align: center;
 }
 
-#about-container 
+#about-container h2{
+    font-size: 2.5rem;
+}
+.about-divider{
+    height: 2rem;
+    background-color: rgb(75, 117, 135);
+}
 
 #services-section{
-    background-color: white;
-    height: 30rem;
-    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    height: 40rem;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    align-items: center;
+    display: flex; 
+    flex-direction:column;
 }
 
-#developers-section{
-    background-color: white;
-    height: 20rem;
-    margin: 2rem;
+#services-section h2, #developers-section h2{
+    margin-bottom: -0.5rem;
+    font-size: xx-large;
 }
+
+[class*=service]{
+    padding: 3rem;
+    display: flex;
+    position: relative;
+   /* filter: blur(0);*/
+    transition: filter 0.5s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/*
+[class*=service] img{
+    filter: blur(0);
+    transition: filter 0.5s ease-in-out;
+}
+
+
+[class*=service] div:hover img{
+    filter: blur(3px);
+}
+
+[class*=service]:hover img{
+    filter: blur(5px);
+    transition: filter 0.5s ease-in-out;
+}
+
+*/
+
+[class*=service] h2, [class*=service] h3 {
+    filter: blur(0);
+    transition: filter 0.5s ease-in-out;
+}
+
+[class*=service] div:hover{
+    background-image: none;
+    transition: filter 2s ease-in-out;
+    text-shadow: 4px 4px 8px rgb(255, 255, 255);
+}
+
+[class*=service] div:hover h3{
+    transition: transform 1s ease-in-out;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    color: black;
+    font-size: 1.9rem;
+    transform: scale(90.0);
+    
+}
+
+[class*="service"] h3{
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    font-size: x-large;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    transition: all 0.6s ease-in-out 0s;
+}
+
+[class*="service"] p{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.7s ease-in-out 0s;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+}
+
+[class*=service] div:hover p{
+    opacity: 1; 
+}   
+
+.services-container{
+    display: grid;
+    background-color: rgb(253, 255, 255);
+    grid-template-columns : 1fr 1fr 1fr;
+    height: 30rem;
+    width: 90%;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.service-a{
+    background-color: rgb(129, 166, 206);
+    background-size: cover;
+  
+}
+
+.service-b{
+    background-color: rgb(132, 196, 212);
+}
+
+.service-c{
+    background-color: rgb(129, 166, 206);
+}
+
+.divider{
+    height: 10px;
+    margin: 20px 0;
+    background: linear-gradient(to right, transparent, #8fa9c2, transparent);
+}
+
+#developers-section:not(h2) {
+    background-color: rgb(253, 255, 255);
+    height: 27rem;
+    margin: 2rem;
+    box-sizing: border-box;
+    padding:  1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#developers-section h2{
+    margin-bottom: 1rem;
+}
+.dev-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.circle-border{
+    border: 1px solid rgb(105, 118, 148);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px #fffbfb;
+    transition: box-shadow 0.3s ease;
+}
+
+.circle-border:hover {
+    box-shadow: 0 0 0 8px #76ddff
+  }
+  
+.dev-list p{
+    position: relative;
+}
+
+
+
 
 footer{
-    height: 35rem;
-    background-color: rgb(220, 202, 255);
+    height: 38.5rem;
+    background-color: #cdeeff;
+    padding: 1px;
+
 }
 
 footer h2{
     text-align: center;
+    font-size: 3rem;
+    margin-bottom: -0.3rem;
+}
+
+form div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20rem 0 20rem;
+    min-width: fit-content;
+    position: relative;
+}
+
+form div label, 
+form div input{
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+}
+
+.form-btn{
+    width: 5rem;
+    margin: auto;
+    margin-top: 1.3rem;
+}
+
+.input-msg{
+    height: 13rem;
+    vertical-align: top;
+    line-height: 1.5;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 100%;
+    resize: none;
+    margin-top: 1rem;
+}
+
+form [class*="input"]:hover{
+    border-color: rgb(15, 41, 59);
+}
+
+form .form-btn{
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.85rem;
+    border: 3px solid rgb(168, 201, 223);
+    transition: all 0.3s ease-in-out;
+    background-color: #FEE12B;
+    color: rgb(5, 66, 158);
+    border-radius: 20px;
+}
+
+form .form-btn:hover{
+    transform: scale(1.1);
+    background-color: #00688B;
+    color: whitesmoke;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus{
+    border: 2px solid  #362264;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.21);
+}
+
+textarea{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+textarea:focus{
+    border: 2px solid #482b8b;
+    outline: none;
+    box-shadow: 0 0 10px #61b9d3;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-links{
+    display: inline-block;
+    margin: 5px;
+}
+
+.icons p{
+    text-align: center;
+    color: #1f077b;
+}
+
+.icon-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.social-links img{
+    width: 1.7rem;
+    padding: 0 2rem;
 }
