@@ -9,13 +9,13 @@
 </head>
 <body>
     <div class="nav">
-        <a href="index.html" target="_self" class="anchor-logo home">
+        <a href="index.php" target="_self" class="anchor-logo home">
             <div class="title-anchor">
-                    <img src="/images/Anchor_Logo.png" alt="img" style="max-width: 47px;">
+                    <img src="./images/Anchor_Logo.png" alt="img" style="max-width: 47px;">
                     <h1>ANCHOR</h1>
             </div>
         </a>
-        <div class="item log-in"><a href="registration-page.html" target="_blank">I don't have an account yet</a></div>
+        <div class="item log-in"><a href="registration-page.php" target="_blank">I don't have an account yet</a></div>
     </div>
     <div class="body-container">
         <div class="inside-container">
@@ -28,7 +28,7 @@
                     <input type="password" placeholder="Password" name="psw" style="width: 28.5rem" id="pass" required><br>
     
                     <button type="submit" id="submit-1">Submit</button><br>
-                    <div class="admin-1"><a href="" target="_blank">If you're an admin, Click Here!</a></div>   
+                    <div class="admin-1"><a href="" target="_blank">Forgot Password</a></div>   
                 </div>
             </form>
     </div>

@@ -1,6 +1,5 @@
-html {
+html{
     scroll-behavior: smooth;
-
 }
 .nav{
     background-color: rgba(54, 4, 97, 0.89);
@@ -94,7 +93,6 @@ body{
 }
 
 .img-gallery{
-    background-image: url('/images/luxury-old-library-interior-night-dark-empty-room-reading-with-books-wooden-shelves_107791-3025\ \(1\).svg');
     height: 25rem;
     width: 70rem;
     margin-top: 2rem;

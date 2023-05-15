@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" />
-    <link rel="icon" type="image/x-icon" href="/images/Anchor_Logo.png">
+    <link rel="icon" type="image\x-icon" href="images\Anchor_Logo.png">
     <title>Anchor</title>
 </head>
 
@@ -14,22 +14,23 @@
     <div class="nav">
         <a href="index.html" target="_self" class="anchor-logo home">
             <div class="title-anchor">
-                    <img src="/images/Anchor_Logo.png" alt="img" style="max-width: 47px;">
+                    <img src="images\Anchor_Logo.png" alt="img" style="max-width: 47px;">
                     <h1>ANCHOR</h1>
             </div>
         </a>
         <div class="item about"><a href="#about-container">About</a></div>
         <div class="item contact-us"><a href="#contact-us">Contact Us</a></div>
-        <div class="item log-in"><a href="login-page.html" target="_self">Log in</a></div>
+        <div class="item log-in"><a href="login-page.php" target="_self">Log in</a></div>
     </div>
 
     <div class="container">
             <div class="create-account">
-                <a href="/registration-page.html" target="_blank" title="Click to register">Create an account — it's totally free!</a>
+                <a href="registration-page.php" target="_blank" title="Click to register">Create an account — it's totally free!</a>
             </div>
             <div class="body-container">
                 <div class="img-gallery-container">
-                    <div class="img-gallery"    >
+                    <div class="img-gallery">
+                        <center><img src="images\library-index.jpg" style="max-width: 65rem; "></center>
                     </div>
                 </div>
                 <div class="divider">
@@ -66,17 +67,17 @@
                         <div class="dev-list">
                             <div class="dev">
                                 <div class="circle-border">
-                                    <img src="/images/nazareno_developer.jpg" alt="Developer's Picture: Shannen Nazareno">
+                                    <img src="images\nazareno_developer.jpg" alt="Developer's Picture: Shannen Nazareno">
                                 </div>
                                 <p>Shannen T. Nazareno</p>
                             </div>
                             <div class="dev">
-                                <div class="circle-border"><img src="/images/englis_developer.jpg" alt = "Developer's Picture: Clint Laurence Englis"></div>
+                                <div class="circle-border"><img src="images\englis_developer.jpg" alt = "Developer's Picture: Clint Laurence Englis"></div>
                                 <p>Clint Laurence Englis</p>
                             </div>
                             <div class="dev">
                                 <div class="circle-border">
-                                    <img src="/images/test.jpg">
+                                    <img src="images\test.jpg">
                                 </div>
                                 <p>Lanz Kirby Codilla</p>
                             </div>
@@ -93,17 +94,17 @@
                 <div class="icon-links">
                     <a href="https://facebook.com" target="_blank">
                         <div class="social-links">
-                            <img src="/images/facebook.png">
+                            <img src="images\facebook.png">
                         </div>
                     </a>
                     <a href="https://instagram.com" target="_blank">
                         <div class="social-links">
-                            <img src = "/images/instagram.png">
+                            <img src = "images\instagram.png">
                         </div>
                     </a>
                     <a href="https://linkedin.com" target="_blank">
                         <div class="social-links">
-                            <img src="/images/linkedin.png">
+                            <img src="images\linkedin.png">
                         </div>
                     </a>
                 </div>

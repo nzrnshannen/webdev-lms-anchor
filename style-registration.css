@@ -73,14 +73,10 @@ body{
 }
 
 .inside-container-1{
-   background-image: url(/images/kidlibrary.png) ;
+   background-image: url("images/kidlibrary.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   
-   
-   
-    
 }
 
 .inside-container-2{
