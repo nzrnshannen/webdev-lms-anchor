@@ -19,7 +19,7 @@
     </div>
     <div class="body-container">
         <div class="inside-container">
-            <form>
+            <form action="login.php" method="POST">
                 <div class="title-login">
                     <h2><strong>LOG IN</strong></h2>
                 </div>
@@ -28,7 +28,7 @@
                     <input type="password" placeholder="Password" name="psw" style="width: 28.5rem" id="pass" required><br>
     
                     <button type="submit" id="submit-1">Submit</button><br>
-                    <div class="admin-1"><a href="" target="_blank">Forgot Password</a></div>   
+                    <div class="admin-1"><a href="#" target="_blank">Forgot Password</a></div>   
                 </div>
             </form>
     </div>

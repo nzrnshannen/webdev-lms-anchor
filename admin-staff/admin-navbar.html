@@ -4,17 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="admin-navbar.css"/>
+    <link rel="icon" type="image\x-icon" href="../images/Anchor_Logo.png">
     <title>ANCHOR | Admin</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            margin: 0; /* Added to remove default margin */
+        }
+        
+        .navbar {
+            background-color: rgb(131, 228, 228);
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .item,
+        .item a {
+            text-decoration: none;
+            color: rgb(73, 67, 89);
+            transition: all 0.2s ease-in-out;
+            display: inline-block;
+            margin: 0;
+            padding: 1rem;
+            position: relative;
+        }
+        
+        .item a:hover {
+            transform: scale(1.10);
+            cursor: pointer;
+            color: rgb(19, 2, 2);
+            text-shadow: 2px 2px 2px rgba(16, 26, 61, 0.309);
+        }
+        
+        .item:hover::before {
+            color: rgba(30, 27, 92, 0.89);
+        }
+        
+        .item:hover::after {
+            color: rgb(189, 2, 251);
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: relative;
+            width: auto; /* Changed min-width to width */
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+            left: 0;
+        }
+     
+        .dropdown:hover .dropdown-content{
+            display: block;
+            position: absolute;
+        }
+        
+        .dropdown-content a {
+            color: #333333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #f9f9f9;
+        }
+        
+
+        .dropbtn{
+            border: none;;
+        }
+
+
+    </style>
+    
 </head>
+
 
 <body>
     <div class="navbar">
-        <div class="item"><a href="#">Manage Accounts</a></div>
-        <div class="item"><a href="#">Manage Books</a></div>
-        <div class="item"><a href="#">Manage Pendings</a></div>
-        <div class="item"><a href="#">Settings</a></div>
+        <div class="item"><a href="./manage-accs.php">Manage Accounts</a></div>
+        <div class="item"><a href="./manage-books.php">Manage Books</a></div>
+        <div class="dropdown">
+            <div class="item dropbtn">
+                <a style="cursor: pointer;">Manage Pendings</a>
+                <div class="dropdown-content">
+                    <a href="">Account Pendings</a>
+                    <a href="">Borrow Pendings</a>
+                    <a href="">Return Pendings</a>
+                </div>
+            </div>
+        </div>
+        <div class="item"><a href="./settings.php">Settings</a></div>
     </div>
-    
 </body>
 </html>

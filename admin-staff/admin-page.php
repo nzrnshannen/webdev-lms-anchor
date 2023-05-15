@@ -8,8 +8,8 @@
     <link rel="icon" type="image/x-icon" href="/images/Anchor_Logo.png">
 </head>
 
-<body>
-    <?php include "navbar.html" ?>
+<body> 
+    <?php include "admin-navbar.html" ?>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-    include_once 'new-register.db.php';
+    include_once 'db.php';
 
     $first = $_POST["fname"];
     $last = $_POST["lname"];
