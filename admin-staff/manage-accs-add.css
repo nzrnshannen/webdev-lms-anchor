@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: rgb(244, 244, 244);
+    border: 5px solid rgb(21, 69, 99);
+    border-radius: 29px;
+    height: 22rem;
+    margin: 2rem 15rem 2rem 15rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-header{
+    text-align: center;
+    margin-bottom: -1rem;
+}
+
+
+.card-body{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+}
+
+ .card-body input{
+    margin: 0.2rem;
+}
+
+.card{
+    margin: 0 5rem 0 5rem;
+    width: 34rem;
+}
+
+.submit-btn{
+    display: block;
+    text-align: center;
+    margin: 0.5rem;
+}

@@ -18,11 +18,12 @@ $result = mysqli_query($conn, $query);
 <body>
     <?php include "admin-navbar.html"?>
     <div class="container">
-        <button>Add User</button>
+        <button><a href="manage-accs-add.php">Add User</a></button>
         <div class="card">
             <table>
                 <tr class="row">
                     <td>User ID</td>
+                    <td>Type</td>
                     <td>First Name</td>
                     <td>Last Name</td>
                     <td>Date of Birth</td>
@@ -39,19 +40,21 @@ $result = mysqli_query($conn, $query);
                         {
                     ?>
                     <td><?php echo $row['user_id'];?></td>
+                    <td><?php echo $row['user_type'];?></td>
                     <td><?php echo $row['user_first'];?></td>
                     <td><?php echo $row['user_last'];?></td>
                     <td><?php echo $row['dob'];?></td>
                     <td><?php echo $row['user_email'];?></td>
                     <td><?php echo $row['user_pass'];?></td>
                     <td><?php echo $row['contact_num'];?></td>
-                    <td><?php echo $row['status'];?></td>
-                    <?php
-                        }
-                    ?>
+                    <td><?php echo $row['status']; echo "<br>"?></td>
                     <td><button>Edit</button></td>
                     <td><button>Delete</button></td>
                 </tr>
+                    <?php
+                        }
+                    ?>
+                    
             </table>
         </div>
     </div>

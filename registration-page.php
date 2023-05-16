@@ -55,9 +55,9 @@
                         <br>
                         <input type="password" id="repassword" name="repassword" placeholder="Re-enter Password">
                         <br>
-                        <input type="radio" id="student" name="student">
+                        <input type="radio" id="student" name="usertype" checked>
                         <label for="student">Student</label>
-                        <input type="radio" id="non-student" name="student">
+                        <input type="radio" id="non-student" name="usertype">
                         <label for="student">Non-Student</label>
                     </div>
                     <br>

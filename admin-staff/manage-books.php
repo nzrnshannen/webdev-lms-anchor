@@ -17,7 +17,7 @@
 <body>
     <?php include "admin-navbar.html"?>
     <div class="container">
-        <button>Add Book</button>
+        <button><a href="manage-books-add.php">Add Book</a></button>
         <div class="card">
             <table>
                 <tr class="row">
@@ -26,6 +26,7 @@
                     <td>Author</td>
                     <td>Number of Pages</td>
                     <td>Status</td>
+                    <td>Borrower's ID</td>
                     <td>Edit</td>
                     <td>Delete</td>
                 </tr>
