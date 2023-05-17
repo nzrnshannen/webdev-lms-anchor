@@ -12,7 +12,7 @@
 
 <body>
     <div class="nav">
-        <a href="index.html" target="_self" class="anchor-logo home">
+        <a href="index.php" target="_self" class="anchor-logo home">
             <div class="title-anchor">
                     <img src="images\Anchor_Logo.png" alt="img" style="max-width: 47px;">
                     <h1>ANCHOR</h1>

@@ -40,13 +40,14 @@
                     <td><?php echo $row['author'];?></td>
                     <td><?php echo $row['no_of_pages'];?></td>
                     <td><?php echo $row['status'];?></td>
-                    <td><?php echo $row['borrower_id'];?></td>
+                    <td><?php echo $row['borrower_id']; echo "<br>"?></td>
+                    <td><button>Edit</button></td>
+                    <td><a href="delete-book.php?id=<?php echo $row['book_id'];?>"><button>Delete</button></a></td>
+                </tr>
                     <?php
                         }
                     ?>
-                    <td><button>Edit</button></td>
-                    <td><button>Delete</button></td>
-                </tr>
+                
             </table>
         </div>
     </div>

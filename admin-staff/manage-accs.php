@@ -2,7 +2,7 @@
 
 require_once('../db.php');
 
-$query = "select * from users";
+$query = "SELECT * from users";
 $result = mysqli_query($conn, $query);
 ?>
 
@@ -48,10 +48,11 @@ $result = mysqli_query($conn, $query);
                     <td><?php echo $row['user_pass'];?></td>
                     <td><?php echo $row['contact_num'];?></td>
                     <td><?php echo $row['status']; echo "<br>"?></td>
-                    <td><button>Edit</button></td>
-                    <td><button>Delete</button></td>
+                    <td><a href="edit-acc.php?id=<?php echo $row['user_id'];?>"><button>Edit</button></a></td>
+                    <td><a href="delete-acc.php?id=<?php echo $row['user_id'];?>"><button>Delete</button></a></td>
                 </tr>
                     <?php
+
                         }
                     ?>
                     

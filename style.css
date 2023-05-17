@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 .nav{
-    background-color: rgba(54, 4, 97, 0.89);
+    background-color: rgb(9, 4, 52);
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
@@ -61,7 +61,7 @@ html{
 }
 
 .create-account{
-    background-color: rgb(162, 140, 204);
+    background-color: rgb(31, 191, 196);
     color:rgba(54, 4, 97, 0.89);
     text-align: center;
     height: 3rem;

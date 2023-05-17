@@ -1,0 +1,48 @@
+
+.container{
+    height: 25rem;
+    padding: 2rem;
+}
+
+.card{
+    height: 25rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.options{
+    background-color:rgb(65, 117, 172) ;
+    border: 1px solid gray;
+    height: 9.5rem;
+    padding: 0rem;
+}
+
+.options div{
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+}
+
+.options a{
+    text-decoration: none;
+    border-bottom: 10px solid gray;
+}
+
+.options div:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+
+.sub-container{
+    padding: 1rem;
+    height: 20rem;
+}
+
+.result{
+    height:inherit;
+}

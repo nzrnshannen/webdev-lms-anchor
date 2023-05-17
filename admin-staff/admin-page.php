@@ -10,6 +10,8 @@
 
 <body> 
     <?php include "admin-navbar.html" ?>
-
+        <div>
+            <!--<h1>Welcome Back, Admin!</h1>-->
+        </div>
 </body>
 </html>
